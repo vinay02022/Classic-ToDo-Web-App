@@ -4,20 +4,8 @@ import logo from './logo.svg';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React and manny thing from heare
-        </a>
-      </header>
+      <h1>Classic To-Do Web App</h1>
+      <h1>Yes I am  Groot</h1>
     </div>
   );
 }
