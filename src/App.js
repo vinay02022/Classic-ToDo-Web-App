@@ -1,13 +1,21 @@
-import logo from './logo.svg';
+import React from "react";
 
+class App extends React.Component {
+ state = {
+    tasks: ["make coffee", "make notes", "go for a jog", "new task"],
+    currInput: "",
+  };
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Classic To-Do Web App</h1>
-      <h1>Yes I am  Groot</h1>
-    </div>
-  );
+  render = () => {
+    return (
+      <ul>
+        {
+          this.state.tasks.map((el)=>{
+           return <li>{el}</li>
+        })}
+      </ul>
+     
+    );
+  };
 }
-
-export default App;
+export default App
